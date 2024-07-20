@@ -1,0 +1,40 @@
+* {
+    font-family: 'Helvetica';
+  }
+  
+  h1 {
+    padding: 12px 10px 8px;
+    background: #00ffc0;
+  }
+  
+  .menu-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .menu-item:hover {
+    background-color: whitesmoke;
+  }
+  
+  nav {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav-item {
+      display: block;
+      background: #fffbaf;
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+    cursor: pointer;
+  }
+  
+  .nav-item:hover {
+    background: #fff200;
+  }
+  
+  #version {
+    font-size: .8em
+  }
